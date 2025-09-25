@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Naviha Digital</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero-section">
+        <nav class="container nav-bar">
+            <a href="index.html" class="logo">Naviha Digital</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="#" class="active">Contact</a></li>
+                <li><a href="#" class="cta-nav-button">Book a Consultation</a></li>
+            </ul>
+        </nav>
+
+        <div class="container hero-content">
+            <h1 class="main-headline">Let's Build Something Great Together.</h1>
+            <p class="sub-headline">Book your free, no-obligation consultation today. Tell us about your business, and we'll reply within 24 hours.</p>
+        </div>
+    </header>
+
+    <section class="contact-section">
+        <div class="container contact-form-container">
+            <form id="contactForm" action="process_form.php" method="POST" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required>
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Your Email</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="business-name" name="business-name">
+                    <label for="business-name">Your Business Name (Optional)</label>
+                </div>
+                <div class="form-group">
+                    <input type="url" id="website" name="website">
+                    <label for="website">Current Website (Optional)</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <label for="message">Tell us about your business</label>
+                </div>
+                <button type="submit" class="cta-button">Submit</button>
+            </>
+            <div class="contact-info">
+                <h3>Or, Email Us Directly</h3>
+                <p>We're just as happy to chat over email. Send us a message and we'll get back to you promptly.</p>
+                <a href="mailto:hello@navihadigital.com" class="email-link">hello@navihadigital.com</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="next-steps-section">
+        <div class="container">
+            <h2>What Happens After I Fill Out the Form?</h2>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>We'll Review Your Request</h3>
+                    <p>We'll read your message carefully to understand your business needs and goals.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>We'll Schedule a Call</h3>
+                    <p>Within 24 business hours, we'll email you to set up a quick, free consultation call.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Let's Get Started</h3>
+                    <p>On the call, we'll answer your questions and lay out a clear plan to bring your business online.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="final-cta-section">
+        <div class="container">
+            <h2>Ready to transform your business?</h2>
+            <p>Don't wait any longer. Your online presence is just a click away.</p>
+            <a href="#" class="cta-button">Book Your Free Consultation</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Naviha Digital. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
